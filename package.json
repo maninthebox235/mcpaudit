@@ -1,0 +1,24 @@
+{
+  "name": "mcpaudit",
+  "version": "0.1.0",
+  "description": "Security audit tool for MCP (Model Context Protocol) server packages",
+  "main": "src/index.js",
+  "bin": {
+    "mcpaudit": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": ["mcp", "security", "audit", "vulnerability", "scanner", "model-context-protocol"],
+  "author": "MCPAudit",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^8.11.3",
+    "acorn-walk": "^8.3.2",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3",
+    "commander": "^11.1.0",
+    "glob": "^10.3.10"
+  }
+}

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "node --test test/cli.test.js test/scanner.test.js"
   },
   "keywords": ["mcp", "security", "audit", "vulnerability", "scanner", "model-context-protocol"],
   "author": "MCPAudit",
